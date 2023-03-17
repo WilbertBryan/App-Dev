@@ -1,0 +1,12 @@
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\bin\Debug\TakeHomeWeek3.exe.config
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\bin\Debug\TakeHomeWeek3.exe
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\bin\Debug\TakeHomeWeek3.pdb
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.csproj.AssemblyReference.cache
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.csproj.SuggestedBindingRedirects.cache
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.MainWindowForm.resources
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.Properties.Resources.resources
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.Second_Window_Form.resources
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.csproj.GenerateResource.cache
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.csproj.CoreCompileInputs.cache
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.exe
+C:\APDEV\TakeHomeWeek3\TakeHomeWeek3\obj\Debug\TakeHomeWeek3.pdb
