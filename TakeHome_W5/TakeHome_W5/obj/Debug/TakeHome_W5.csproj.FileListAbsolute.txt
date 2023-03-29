@@ -1,0 +1,11 @@
+C:\APDEV\TakeHome_W5\TakeHome_W5\bin\Debug\TakeHome_W5.exe.config
+C:\APDEV\TakeHome_W5\TakeHome_W5\bin\Debug\TakeHome_W5.exe
+C:\APDEV\TakeHome_W5\TakeHome_W5\bin\Debug\TakeHome_W5.pdb
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.csproj.AssemblyReference.cache
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.csproj.SuggestedBindingRedirects.cache
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.Form1.resources
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.Properties.Resources.resources
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.csproj.GenerateResource.cache
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.csproj.CoreCompileInputs.cache
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.exe
+C:\APDEV\TakeHome_W5\TakeHome_W5\obj\Debug\TakeHome_W5.pdb
