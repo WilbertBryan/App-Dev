@@ -286,7 +286,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(2134, 1185);
+            this.ClientSize = new System.Drawing.Size(1891, 1104);
             this.Controls.Add(this.btn_removecategory);
             this.Controls.Add(this.btn_addcategory);
             this.Controls.Add(this.txtBox_namacat);

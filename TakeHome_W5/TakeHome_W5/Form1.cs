@@ -65,7 +65,6 @@ namespace TakeHome_W5
             dtProdukSimpan.Columns.Add("Stock");
             dtProdukSimpan.Columns.Add("ID Category");
             UpdateDGVProduct();
-            //dgv_product.DataSource = dtProdukSimpan;
 
             dtProdukTampil.Columns.Add("ID Product");
             dtProdukTampil.Columns.Add("Nama Product");
@@ -103,14 +102,12 @@ namespace TakeHome_W5
         {
             cmb_filter.Enabled = true;
         }
-
         private void btn_all_Click(object sender, EventArgs e)
         {
             cmb_filter.Enabled = false;
             cmb_filter.SelectedItem = null;
             dgv_product.DataSource = dtProdukSimpan;
         }
-
         private void cmb_filter_SelectedIndexChanged(object sender, EventArgs e)
         {
             dtProdukTampil.Clear();
@@ -131,10 +128,7 @@ namespace TakeHome_W5
                 }
             }
             dgv_product.DataSource = dtProdukTampil;
-
-
         }
-
         private void btn_addproduct_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtBox_nama.Text) || string.IsNullOrEmpty(cmb_category.Text) || string.IsNullOrEmpty(txtBox_harga.Text) || string.IsNullOrEmpty(txtBox_stock.Text))
@@ -172,9 +166,8 @@ namespace TakeHome_W5
                     id = a + "0" + angkaproduct.ToString();
                 else
                     id = a + angkaproduct.ToString();
-                //MessageBox.Show(id);
 
-                // id
+                //cek id
                 string simpanid = "";
                 foreach (ClassCategory cat in categorylist)
                 {
@@ -213,8 +206,6 @@ namespace TakeHome_W5
             }
             else
             {
-                
-
                 int a = dgv_product.CurrentCell.RowIndex;
                 if (Convert.ToInt32(txtBox_stock.Text) <= 0)
                 {
@@ -246,7 +237,6 @@ namespace TakeHome_W5
         int countcategory = 6;
         private void btn_addcategory_Click(object sender, EventArgs e)
         {
-
             if (txtBox_namacat.Text == "")
             {
                 MessageBox.Show("Input yang lengkap ya");
@@ -280,28 +270,20 @@ namespace TakeHome_W5
                 MessageBox.Show("KLIK DULU");
             else
             {
-
-
                 int a = dgv_category.CurrentCell.RowIndex;
-                //MessageBox.Show(a.ToString());
                 cmb_category.Items.RemoveAt(a);
                 cmb_filter.Items.RemoveAt(a);
 
                 //==========Remove Category from list===========
                 string idcat = categorylist[a].id;
                 categorylist.RemoveAt(a);
-                //MessageBox.Show(idcat);
 
                 //==========Check Product id dari list==========
-                int count = -1;
-
                 int i = 0;
                 for (i = 0; i < productlist.Count; i++)
                 {
-                    //MessageBox.Show(productlist[i].idcategory + " loop ke -" + i.ToString() + " " + idcat);
                     if (productlist[i].idcategory == idcat)
                     {
-                        //MessageBox.Show("iniii " + productlist[i].idproduct + " " + i.ToString());
                         dtProdukSimpan.Rows.RemoveAt(i);
                         productlist.RemoveAt(i);
                         i = -1;
@@ -311,7 +293,6 @@ namespace TakeHome_W5
                 dtCategory.Rows.RemoveAt(dgv_category.CurrentCell.RowIndex);
             }
         }
-
         private void dgv_product_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int a = dgv_product.CurrentCell.RowIndex;
@@ -330,14 +311,12 @@ namespace TakeHome_W5
 
             select = true;
         }
-
         private void dgv_category_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             selectcat = true;
             int a = dgv_category.CurrentCell.RowIndex;
             txtBox_namacat.Text = categorylist[a].nama;
         }
-
         private void btn_removeproduct_Click(object sender, EventArgs e)
         {
             int a = dgv_product.CurrentCell.RowIndex;
