@@ -40,6 +40,7 @@ namespace TakeHome_W5
         }
         public void UpdateDGVProduct()
         {
+            cmb_filter.SelectedItem = null;
             dtProdukSimpan.Clear();
             foreach (ClassProduct a in productlist)
             {
@@ -179,8 +180,7 @@ namespace TakeHome_W5
                 }
                 ClassProduct c = new ClassProduct(id, txtBox_nama.Text, txtBox_harga.Text, txtBox_stock.Text, simpanid);
                 productlist.Add(c);
-                dtProdukSimpan.Rows.Add(id, txtBox_nama.Text, txtBox_harga.Text, txtBox_stock.Text, simpanid);
-
+                UpdateDGVProduct();
                 txtBox_nama.Clear();
                 cmb_category.SelectedItem = null;
                 txtBox_harga.Clear();
