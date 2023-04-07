@@ -11,7 +11,7 @@ namespace TakeHome_W6
         int row;
         int nextline = 0;
         string[] split;
-        string katarandom;
+        string katarandom="APPLE";
         string word;
         Button[,] buttons;
         bool menang = false;
@@ -136,7 +136,11 @@ namespace TakeHome_W6
                         nextline++;
 
                     if (menang == false && nextline == row)
+                    {
                         MessageBox.Show("YOU LOST! The Word Is: " + katarandom);
+                        menang = true;
+                    }
+                       
 
                     word = "";
                 }
@@ -145,22 +149,24 @@ namespace TakeHome_W6
 
         private void btn_delete_Click(object sender, EventArgs e)
         {
-
-            word = "";
-            for (int i = 4; i >= 0; i--)
+            if(menang == false)
             {
-                if (!string.IsNullOrEmpty(buttons[nextline, i].Text))
+                word = "";
+                for (int i = 4; i >= 0; i--)
                 {
-                    buttons[nextline, i].Text = "";
-                    break;
+                    if (!string.IsNullOrEmpty(buttons[nextline, i].Text))
+                    {
+                        buttons[nextline, i].Text = "";
+                        break;
+                    }
                 }
-            }
-            for (int j = 0; j < 5; j++)
-            {
-                if (!string.IsNullOrEmpty(buttons[nextline, j].Text))
+                for (int j = 0; j < 5; j++)
                 {
-                    word += buttons[nextline, j].Text;
+                    if (!string.IsNullOrEmpty(buttons[nextline, j].Text))
+                    {
+                        word += buttons[nextline, j].Text;
 
+                    }
                 }
             }
         }

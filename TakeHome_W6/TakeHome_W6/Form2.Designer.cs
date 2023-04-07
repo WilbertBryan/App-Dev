@@ -342,6 +342,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(2022, 1273);
             this.Controls.Add(this.btn_delete);
             this.Controls.Add(this.btn_enter);
