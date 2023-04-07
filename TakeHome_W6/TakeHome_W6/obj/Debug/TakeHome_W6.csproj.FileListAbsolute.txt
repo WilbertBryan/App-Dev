@@ -1,0 +1,12 @@
+C:\APDEV\TakeHome_W6\TakeHome_W6\bin\Debug\TakeHome_W6.exe.config
+C:\APDEV\TakeHome_W6\TakeHome_W6\bin\Debug\TakeHome_W6.exe
+C:\APDEV\TakeHome_W6\TakeHome_W6\bin\Debug\TakeHome_W6.pdb
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.csproj.AssemblyReference.cache
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.csproj.SuggestedBindingRedirects.cache
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.Form1.resources
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.Form2.resources
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.Properties.Resources.resources
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.csproj.GenerateResource.cache
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.csproj.CoreCompileInputs.cache
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.exe
+C:\APDEV\TakeHome_W6\TakeHome_W6\obj\Debug\TakeHome_W6.pdb
