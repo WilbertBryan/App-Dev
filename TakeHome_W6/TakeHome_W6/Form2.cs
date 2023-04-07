@@ -11,7 +11,7 @@ namespace TakeHome_W6
         int row;
         int nextline = 0;
         string[] split;
-        string katarandom="APPLE";
+        string katarandom;
         string word;
         Button[,] buttons;
         bool menang = false;
