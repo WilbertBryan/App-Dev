@@ -26,7 +26,7 @@ namespace TakeHome_W6
             int random = rnd.Next(1, 14913);
             katarandom = split[random].ToUpper();
 
-            MessageBox.Show(katarandom);
+            //MessageBox.Show(katarandom);
         }
 
         private void Form2_Load(object sender, EventArgs e)
