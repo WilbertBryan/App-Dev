@@ -26,7 +26,7 @@ namespace TakeHome_W6
             int random = rnd.Next(1, 14913);
             katarandom = split[random].ToUpper();
 
-           // MessageBox.Show(katarandom);
+            MessageBox.Show(katarandom);
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -77,6 +77,7 @@ namespace TakeHome_W6
                 MessageBox.Show("Input first");
             else if (menang == false)
             {
+                
                 foreach (string a in split)
                 {
                     if (a.ToUpper() == (word))
@@ -90,7 +91,7 @@ namespace TakeHome_W6
                 }
                 else
                 {
-                    bool[] arr = new bool[6];
+                    bool[] arr = new bool[5];
                     //Cek hijau
                     for (int i = 0; i < 5; i++)
                     {
@@ -105,22 +106,24 @@ namespace TakeHome_W6
                     {
                         for (int j = 0; j <= 4; j++)
                         {
-                            //MessageBox.Show("kata random - " + katarandom[i].ToString() + " word - " + word[j].ToString() +" "+ arr[j]) ;
+                            //MessageBox.Show("kata random - " + katarandom[i].ToString() + " word - " + word[j].ToString() +" "+ arr[j] + " " + j.ToString()) ;
                             if (katarandom[i] == word[j] && arr[i] == true)
                             {
+                                //MessageBox.Show("MASUK CUY");
                                 if (i < 4)
                                 {
                                     i++;
-                                    j = 0;
+                                    j = -1;
                                 }
                             }
                             else if (katarandom[i] == word[j] && arr[j] == false)
                             {
                                 buttons[nextline, j].BackColor = Color.LightGoldenrodYellow;
-                                arr[i] = true;
+                                arr[j] = true;
+                                //MessageBox.Show("MASUK kata random - " + katarandom[i].ToString() + " word - " + word[j].ToString() + " " + arr[j]+" "+j.ToString());
                                 if (i < 4)
                                 {
-                                    i++; j = 0;
+                                    i++; j = -1;
                                 }
 
                             }
