@@ -31,7 +31,7 @@ namespace TakeHome_W7
 
             PictureBox pictureBox = new PictureBox();
 
-            string txtfile = File.ReadAllText(@"C:\APDEV\TakeHome_W7\Movie List.txt");
+            string txtfile = File.ReadAllText("Movie List.txt");
             string[] split = txtfile.Split(',');
 
             pictureBox.Location = new Point(20, 30);

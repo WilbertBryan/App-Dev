@@ -23,7 +23,7 @@ namespace TakeHome_W7
         public FormMovie()
         {
             InitializeComponent();
-            string txtfile = File.ReadAllText(@"C:\APDEV\TakeHome_W7\Movie List.txt");
+            string txtfile = File.ReadAllText("Movie List.txt");
             split = txtfile.Split(',');
             jumlahmovie = split.Length / 2;
             movie = new FormJamMovie[jumlahmovie];
