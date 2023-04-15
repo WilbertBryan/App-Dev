@@ -1,0 +1,14 @@
+C:\APDEV\TakeHome_W7\TakeHome_W7\bin\Debug\TakeHome_W7.exe.config
+C:\APDEV\TakeHome_W7\TakeHome_W7\bin\Debug\TakeHome_W7.exe
+C:\APDEV\TakeHome_W7\TakeHome_W7\bin\Debug\TakeHome_W7.pdb
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.csproj.AssemblyReference.cache
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.csproj.SuggestedBindingRedirects.cache
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.Form1.resources
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.FormMovie.resources
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.Properties.Resources.resources
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.csproj.GenerateResource.cache
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.csproj.CoreCompileInputs.cache
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.exe
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.pdb
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.FormJamMovie.resources
+C:\APDEV\TakeHome_W7\TakeHome_W7\obj\Debug\TakeHome_W7.FormKursi.resources
