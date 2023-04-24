@@ -20,6 +20,6 @@ D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\bin\Debug\K4os.Compression.LZ4.dll
 D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\bin\Debug\K4os.Hash.xxHash.dll
 D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\bin\Debug\MySql.Data.xml
 D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\obj\Debug\TakeHome_W8.exe.config
-D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\obj\Debug\TakeHome_W8.PlayerData.resources
 D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\obj\Debug\TakeHome_W8.csproj.CopyComplete
 D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\obj\Debug\TakeHome_W8.ShowMatch.resources
+D:\Wilbert Univ\TakeHome_W8\TakeHome_W8\obj\Debug\TakeHome_W8.label.resources

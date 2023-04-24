@@ -18,14 +18,9 @@ namespace TakeHome_W8
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void playerDataToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PlayerData playerData= new PlayerData();
+            label playerData= new label();
             playerData.MdiParent= this;
             playerData.Dock= DockStyle.Fill;
             playerData.ControlBox = false;

@@ -25,7 +25,6 @@ namespace TakeHome_W8
         DataTable dtMatch= new DataTable();
         DataTable dtDetail= new DataTable();
         string pilih = "";
-        string pilihtanggal = "";
         public ShowMatch()
         {
             InitializeComponent();

@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace TakeHome_W8
 {
-    public partial class PlayerData : Form
+    public partial class label : Form
     {
         string connectionString = "server=localhost;uid=root;pwd=root;database=premier_league";
         MySqlConnection sqlConnection;
@@ -23,7 +23,7 @@ namespace TakeHome_W8
         DataTable dtInfoPemain1=new DataTable();
         DataTable dtidPemain=new DataTable();
         DataTable dtInfoPemain2= new DataTable();
-        public PlayerData()
+        public label()
         {
             InitializeComponent();
         }
@@ -65,7 +65,7 @@ namespace TakeHome_W8
             dtInfoPemain1 = new DataTable();
             string namaTeam = cmb_team.Text;
             string namaPlayer=cmb_player.Text;
-            query = $"SELECT p.player_name,t.team_name,if(p.playing_pos='G','GoalKeeper',if(p.playing_pos='M','MidFielder',if(p.playing_pos='D','Defender','Forward')))as'Position',n.nation\r\nFROM player p,nationality n, team t\r\nWHERE p.team_id=t.team_id AND p.player_name='{namaPlayer}' AND t.team_name ='{namaTeam}' AND n.nationality_id=p.nationality_id";
+            query = $"SELECT p.player_name,t.team_name,if(p.playing_pos='G','GoalKeeper',if(p.playing_pos='M','MidFielder',if(p.playing_pos='D','Defender','Forward')))as'Position',n.nation,p.team_number\r\nFROM player p,nationality n, team t\r\nWHERE p.team_id=t.team_id AND p.player_name='{namaPlayer}' AND t.team_name ='{namaTeam}' AND n.nationality_id=p.nationality_id";
             sqlCommand = new MySqlCommand(query, sqlConnection);
             sqlDataAdapter = new MySqlDataAdapter(sqlCommand);
             sqlDataAdapter.Fill(dtInfoPemain1);
@@ -74,7 +74,7 @@ namespace TakeHome_W8
             label_team.Text= dtInfoPemain1.Rows[0][1].ToString();
             label_position.Text= dtInfoPemain1.Rows[0][2].ToString();
             label_nation.Text= dtInfoPemain1.Rows[0][3].ToString();
-
+            label_number.Text= dtInfoPemain1.Rows[0][4].ToString();
             idPemain(namaPlayer);
             dtInfoPemain2 = new DataTable();
             string _idPemain = dtidPemain.Rows[0][0].ToString();
