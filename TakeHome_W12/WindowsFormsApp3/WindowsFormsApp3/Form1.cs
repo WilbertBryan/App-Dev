@@ -70,7 +70,7 @@ namespace WindowsFormsApp3
         private void updateDGV4() {
             dtPlayer = new DataTable();
             sqlConnection = new MySqlConnection(Connection);
-            query = $"select p.player_name,p.nationality_id,p.playing_pos,p.team_number,p.height,p.weight,p.birthdate from player p, team t where p.team_id=t.team_id and p.status=1 and t.team_name='{cmb_teamdelete.Text}';";
+            query = $"select p.player_name,n.nation,p.playing_pos,p.team_number,p.height,p.weight,p.birthdate from player p, team t, nationality n where p.nationality_id=n.nationality_id and p.team_id=t.team_id and p.status=1 and t.team_name='{cmb_teamdelete.Text}';";
             sqlCommand = new MySqlCommand(query, sqlConnection);
             sqlDataAdapter = new MySqlDataAdapter(sqlCommand);
             sqlDataAdapter.Fill(dtPlayer);
